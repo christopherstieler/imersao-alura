@@ -4,39 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/reset.css">
-    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
     <title>Spotify - Leitor web...</title>
 </head>
 
 <body>
+    <!--Sidebar-->
     <div class="sidebar">
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="" alt="Logo do Spotify">
+                    <img src="/src/assets/icons/logo-spotify.png" alt="Logo do Spotify" width="90px" height="">
                 </a>
             </div>
-            <ul>
+            <ul class="list">
                 <li>
                     <a href="">
                         <span class="fa fa-home"></span>
-                        <span class="">Início</span>
+                        <span class="list__span">Início</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <span class="fa fa-search"></span>
-                        <span class="">Buscar</span>
+                        <spa class="list__span">Procurar</span>
                     </a>
                 </li>
             </ul>
         </nav>
     </div>
+    <!--A tua Biblioteca-->
+
+    <div class="library">
+        <div class="library__content">
+            <button class="library__button">
+                <span class="fa fas fa-book"></span>
+                <span>A tua biblioteca</span>
+            </button>
+            <span class="fa-solid fa-plus"></span>
+            <div>
+                <span class="library__playlist">Cria a tua primeira playlist</span>
+            </div>
+            <div class="legal_terms">
+                <a href="">Termos Legais</a>
+                <a href="">Centro de Privacidade</a>
+                <a href="">Política de Privacidade</a>
+                <a href="">Cookies</a>
+                <a href="">Acerca de anúnicios</a>
+                <a href="">Acessibilidade</a>
+                <a href="">Notice at Collection</a>
+                <a href="">Your Privacy Choices</a>
+                <a href="">Cookies</a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

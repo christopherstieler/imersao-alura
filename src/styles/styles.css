@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    background-color: black;
+    /* width: 100%; */
+}
+
+.sidebar {
+    width: 500px;
+    padding: 10px;
+}
+
+.sidebar__navigation{ 
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.list {
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list li {
+    padding: 10px 0 10px 0;
+    font-family: sans-serif;
+}
+
+/* 
+span {
+    padding: 0 0 0 5px;
+} */
+
+.list__span{
+    padding-left: 10px;
+}
+
+/* A tua Biblioteca */
+
+.library {
+    margin-left: 10px;
+    width: 300px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.library__content {
+    /* background-color: green; */
+    width: 300px;
+    height: 370px;
+}
+
+.library__content button {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.library__playlist {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+
+.legal_terms {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
